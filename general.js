@@ -1,5 +1,6 @@
 // general.js
 // Retrieves all books and their details based on author, title, and ISBN
+// Uses async/await with Axios and includes input validation and error handling
 
 const axios = require('axios');
 const BASE_URL = "http://localhost:5000";
@@ -24,18 +25,18 @@ async function getBookByISBN(isbn) {
 
   try {
     const response = await axios.get(`${BASE_URL}/books/isbn/${isbn}`);
-    console.log(`[INFO] Book data for ISBN ${isbn}:`, response.data);
+    console.log(`[INFO] Book data for ISBN "${isbn}":`, response.data);
     return response.data;
   } catch (error) {
     if (error.response && error.response.status === 404) {
-      console.error(`[NOT FOUND] Book with ISBN ${isbn} does not exist.`);
+      console.error(`[NOT FOUND] No book found with ISBN "${isbn}"`);
     } else {
-      console.error(`[ERROR] Failed to fetch book with ISBN ${isbn}:`, error.message);
+      console.error(`[ERROR] Failed to fetch book with ISBN "${isbn}":`, error.message);
     }
   }
 }
 
-// Get book by Author
+// Get books by Author
 async function getBookByAuthor(author) {
   if (!author) {
     console.error("[ERROR] Author name is required");
@@ -47,7 +48,11 @@ async function getBookByAuthor(author) {
     console.log(`[INFO] Books by author "${author}":`, response.data);
     return response.data;
   } catch (error) {
-    console.error(`[ERROR] Could not fetch books by author "${author}":`, error.message);
+    if (error.response && error.response.status === 404) {
+      console.error(`[NOT FOUND] No books found for author "${author}"`);
+    } else {
+      console.error(`[ERROR] Could not fetch books by author "${author}":`, error.message);
+    }
   }
 }
 
@@ -63,7 +68,11 @@ async function getBookByTitle(title) {
     console.log(`[INFO] Book with title "${title}":`, response.data);
     return response.data;
   } catch (error) {
-    console.error(`[ERROR] Could not fetch book with title "${title}":`, error.message);
+    if (error.response && error.response.status === 404) {
+      console.error(`[NOT FOUND] No book found with title "${title}"`);
+    } else {
+      console.error(`[ERROR] Could not fetch book with title "${title}":`, error.message);
+    }
   }
 }
 
