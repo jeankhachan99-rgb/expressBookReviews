@@ -1,6 +1,5 @@
 // general.js
-// This file retrieves all books and their details based on author, title, and ISBN
-// using async/await and Axios for asynchronous API requests
+// Retrieves all books and their details based on author, title, and ISBN
 
 const axios = require('axios');
 const BASE_URL = "http://localhost:5000";
@@ -9,43 +8,62 @@ const BASE_URL = "http://localhost:5000";
 async function getAllBooks() {
   try {
     const response = await axios.get(`${BASE_URL}/books`);
-    console.log(response.data);
+    console.log("[INFO] Retrieved all books:", response.data);
     return response.data;
   } catch (error) {
-    console.error("Error fetching all books:", error.message);
+    console.error("[ERROR] Could not fetch all books:", error.message);
   }
 }
 
 // Get book by ISBN
 async function getBookByISBN(isbn) {
+  if (!isbn) {
+    console.error("[ERROR] ISBN is required");
+    return;
+  }
+
   try {
     const response = await axios.get(`${BASE_URL}/books/isbn/${isbn}`);
-    console.log(response.data);
+    console.log(`[INFO] Book data for ISBN ${isbn}:`, response.data);
     return response.data;
   } catch (error) {
-    console.error(`Error fetching book with ISBN ${isbn}:`, error.message);
+    if (error.response && error.response.status === 404) {
+      console.error(`[NOT FOUND] Book with ISBN ${isbn} does not exist.`);
+    } else {
+      console.error(`[ERROR] Failed to fetch book with ISBN ${isbn}:`, error.message);
+    }
   }
 }
 
 // Get book by Author
 async function getBookByAuthor(author) {
+  if (!author) {
+    console.error("[ERROR] Author name is required");
+    return;
+  }
+
   try {
     const response = await axios.get(`${BASE_URL}/books/author/${author}`);
-    console.log(response.data);
+    console.log(`[INFO] Books by author "${author}":`, response.data);
     return response.data;
   } catch (error) {
-    console.error(`Error fetching books by author ${author}:`, error.message);
+    console.error(`[ERROR] Could not fetch books by author "${author}":`, error.message);
   }
 }
 
 // Get book by Title
 async function getBookByTitle(title) {
+  if (!title) {
+    console.error("[ERROR] Book title is required");
+    return;
+  }
+
   try {
     const response = await axios.get(`${BASE_URL}/books/title/${title}`);
-    console.log(response.data);
+    console.log(`[INFO] Book with title "${title}":`, response.data);
     return response.data;
   } catch (error) {
-    console.error(`Error fetching book with title ${title}:`, error.message);
+    console.error(`[ERROR] Could not fetch book with title "${title}":`, error.message);
   }
 }
 
