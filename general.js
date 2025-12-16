@@ -76,10 +76,18 @@ async function getBookByTitle(title) {
   }
 }
 
-// Export all functions
+// Export all functions so they can be reused
 module.exports = {
   getAllBooks,
   getBookByISBN,
   getBookByAuthor,
   getBookByTitle
 };
+
+// OPTIONAL: Test calls (Uncomment to test locally)
+/*
+getAllBooks();
+getBookByISBN("9780451524935");
+getBookByAuthor("George Orwell");
+getBookByTitle("1984");
+*/
