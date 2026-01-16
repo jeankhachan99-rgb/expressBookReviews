@@ -1,0 +1,416 @@
+<!-- ============================== AL KHACHAN MARKETING AGENCY Premium Dark-Gold Homepage (SEO Optimized) ============================== -->
+<style> /* ===== Base / Theme ===== */ .bleed{ width:100vw;position:relative;left:50%;right:50%; margin-left:-50vw;margin-right:-50vw; } #akh-home{ --bg:#05070c; --bg2:#050912; --gold:#d8ae56; --gold-soft:#f5e3ba; --emerald:#0ac29d; --ink:#f4efe5; --muted:#a99a86; --card:rgba(9,12,24,.92); --shadow:0 32px 80px rgba(0,0,0,.8); font:16px/1.65 system-ui,-apple-system,Inter,Segoe UI,Roboto,Arial; color:var(--ink); background: radial-gradient(1200px 800px at 10% -5%,rgba(216,174,86,.22),transparent 65%), radial-gradient(1200px 800px at 90% 110%,rgba(10,194,157,.25),transparent 55%), linear-gradient(180deg,var(--bg),var(--bg2)); isolation:isolate; overflow:hidden; } #akh-home .wrap{ max-width:1240px; margin:0 auto; padding:60px 22px 88px; position:relative; z-index:1; } #akh-home h1,#akh-home h2,#akh-home h3,#akh-home h4{ margin:0 0 12px; font-weight:900; letter-spacing:.01em; color:#fff; } #akh-home h1{font-size:clamp(36px,4.8vw,60px);line-height:1.05;} #akh-home h2{font-size:clamp(26px,3.2vw,40px);} #akh-home h3{font-size:clamp(18px,2.3vw,24px);} #akh-home p{margin:0 0 10px;} #akh-home .sub{opacity:.96;max-width:780px;} #akh-home a{text-decoration:none;color:inherit;} #akh-home .eyebrow{ letter-spacing:.24em; text-transform:uppercase; font-size:.78rem; font-weight:700; color:var(--gold-soft); opacity:.9; } #akh-home .hr{ margin:52px 0; height:1px; background:linear-gradient(90deg,transparent,var(--gold),transparent); opacity:.7; border-radius:999px; } /* ===== Layout helpers ===== */ #akh-home .grid{display:grid;gap:24px;} @media(min-width:980px){ #akh-home .grid-2{grid-template-columns:1.1fr .95fr;} #akh-home .grid-2-rev{grid-template-columns:.95fr 1.05fr;} #akh-home .grid-3{grid-template-columns:repeat(3,1fr);} } @media(max-width:979px){ #akh-home .grid{grid-template-columns:1fr;} } #akh-home .card{ background:var(--card); border-radius:20px; padding:20px 18px; border:1px solid rgba(255,255,255,.06); box-shadow:var(--shadow); backdrop-filter:blur(12px); } #akh-home .tilt{ transition:transform .25s ease,box-shadow .25s ease; } #akh-home .tilt:hover{ transform:translateY(-4px) scale(1.01); box-shadow:0 28px 80px rgba(0,0,0,.9); } /* ===== Buttons ===== */ #akh-home .cta-row{ display:flex; flex-wrap:wrap; gap:12px; margin-top:18px; } #akh-home .btn{ position:relative; display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:13px 22px; border-radius:999px; font-size:.95rem; font-weight:800; border:1px solid var(--gold); background:linear-gradient(180deg,#ffeac0,var(--gold)); color:#05070c; box-shadow:0 20px 46px rgba(216,174,86,.55); overflow:hidden; cursor:pointer; transition:transform .2s ease,box-shadow .2s ease,filter .2s ease; white-space:nowrap; } #akh-home .btn .icon{font-size:1.1rem;} #akh-home .btn:hover{ transform:translateY(-2px); box-shadow:0 26px 60px rgba(216,174,86,.75); filter:brightness(1.03); } #akh-home .btn-outline{ background:rgba(5,7,12,.7); color:var(--gold-soft); box-shadow:none; border-color:rgba(216,174,86,.7); } #akh-home .btn-outline:hover{ background:rgba(216,174,86,.12); } #akh-home .btn .shine{ position:absolute; top:-120%;left:-40%; width:60%;height:320%; background:linear-gradient(120deg,rgba(255,255,255,.95),rgba(255,255,255,0)); transform:rotate(18deg); opacity:.75; pointer-events:none; animation:akh-shine 4.2s linear infinite; } @keyframes akh-shine{ from{left:-40%;} to{left:130%;} } /* ===== HERO ===== */ #akh-home .hero{ display:grid; gap:30px; align-items:center; } @media(min-width:980px){ #akh-home .hero{grid-template-columns:1.03fr 1fr;} } #akh-home .hero-p{ font-size:.98rem; } #akh-home .hero-banner{ position:relative; border-radius:26px; overflow:hidden; min-height:280px; border:1px solid rgba(255,255,255,.06); box-shadow:var(--shadow); background: radial-gradient(circle at 0 0,rgba(216,174,86,.35),transparent 60%), radial-gradient(circle at 100% 100%,rgba(10,194,157,.35),transparent 60%), #05070c url("https://cdn.shopify.com/s/files/1/0734/5058/6264/files/banners_recompressed_1.jpg?v=1765033495") center/cover no-repeat; } #akh-home .hero-banner-layer{ position:absolute;inset:0; background: radial-gradient(circle at 10% 0%,rgba(0,0,0,.4),transparent 58%), radial-gradient(circle at 100% 100%,rgba(0,0,0,.45),transparent 65%); mix-blend-mode:multiply; } #akh-home .hero-banner-inner{ position:relative; z-index:1; height:100%; padding:18px 18px 20px; display:flex; flex-direction:column; justify-content:space-between; } #akh-home .pill-row{ display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; } #akh-home .pill{ padding:7px 12px; border-radius:999px; font-size:.78rem; font-weight:600; text-transform:uppercase; letter-spacing:.12em; border:1px solid rgba(255,255,255,.1); background:rgba(0,0,0,.55); color:var(--gold-soft); } #akh-home .hero-metrics{ display:flex; flex-wrap:wrap; gap:14px; margin-top:14px; } #akh-home .metric{ display:flex; flex-direction:column; gap:2px; font-size:.8rem; } #akh-home .metric .num{ font-size:1.22rem; font-weight:900; color:#fff; } #akh-home .metric small{color:var(--muted);} /* ===== TRUST LOGOS (SCROLLER) ===== */ #akh-home .trust-head{margin-bottom:10px;} #akh-home .logo-strip-shell{ margin-top:16px; border-radius:20px; border:1px solid rgba(255,255,255,.08); background:rgba(0,0,0,.55); padding:12px 10px; overflow:hidden; position:relative; } #akh-home .logo-strip{ display:flex; gap:18px; align-items:center; animation:logoscroll 32s linear infinite; will-change:transform; } #akh-home .logo-item{ flex:0 0 auto; min-width:110px; max-width:150px; height:70px; border-radius:14px; border:1px solid rgba(255,255,255,.08); background:rgba(5,7,12,.9); display:flex; align-items:center; justify-content:center; overflow:hidden; } #akh-home .logo-item img{ max-width:100%; max-height:100%; object-fit:contain; } @keyframes logoscroll{ from{transform:translateX(0);} to{transform:translateX(-50%);} } #akh-home .trust-metrics{ margin-top:18px; display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); } #akh-home .trust-card{ border-radius:16px; padding:14px 14px 16px; border:1px solid rgba(255,255,255,.08); background:linear-gradient(150deg,rgba(255,255,255,.04),rgba(0,0,0,.8)); box-shadow:0 18px 46px rgba(0,0,0,.7); } #akh-home .trust-num{ font-size:1.45rem; font-weight:900; margin-bottom:3px; } #akh-home .trust-label{ font-size:.82rem; color:var(--muted); } /* ===== SERVICES ===== */ #akh-home .services-grid{ margin-top:18px; display:grid; gap:18px; } @media(min-width:980px){ #akh-home .services-grid{grid-template-columns:repeat(4,1fr);} } @media(max-width:979px){ #akh-home .services-grid{grid-template-columns:1fr 1fr;} } @media(max-width:640px){ #akh-home .services-grid{grid-template-columns:1fr;} } #akh-home .service-card{ position:relative; border-radius:18px; padding:18px 16px 18px; background:radial-gradient(circle at 0 0,rgba(216,174,86,.25),transparent 55%), rgba(11,14,26,.96); border:1px solid rgba(216,174,86,.5); overflow:hidden; cursor:pointer; transform-origin:50% 100%; transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease; } #akh-home .service-card:hover{ transform:translateY(-6px) scale(1.02); box-shadow:0 26px 60px rgba(0,0,0,.85); border-color:var(--gold); } #akh-home .service-ico{ width:34px;height:34px; border-radius:999px; display:flex; align-items:center; justify-content:center; font-size:1.2rem; background:radial-gradient(circle at 25% 0,#fff,var(--gold)); color:#000; margin-bottom:8px; } #akh-home .service-title{ font-size:1rem; font-weight:800; margin-bottom:4px; } #akh-home .service-body{ font-size:.86rem; opacity:.96; } #akh-home .service-foot{ margin-top:9px; font-size:.78rem; color:var(--gold-soft); } /* ===== WHY ===== */ #akh-home .why-grid{ margin-top:18px; display:grid; gap:20px; } @media(min-width:980px){ #akh-home .why-grid{grid-template-columns:1.1fr .9fr;} } #akh-home .why-point{ padding:14px 14px 16px; border-radius:16px; border:1px solid rgba(255,255,255,.08); background:rgba(5,7,12,.9); position:relative; overflow:hidden; margin-bottom:10px; } #akh-home .why-point:before{ content:"";position:absolute;inset:0; background:linear-gradient(130deg,rgba(216,174,86,.24),transparent); mix-blend-mode:soft-light; opacity:.7; } #akh-home .why-point h4{ position:relative; font-size:.9rem; text-transform:uppercase; letter-spacing:.16em; color:var(--gold-soft); margin-bottom:6px; } #akh-home .why-point p{ position:relative; font-size:.88rem; opacity:.95; } /* ===== RESULTS / CASE SUMMARY ===== */ #akh-home .results-grid{ margin-top:18px; display:grid; gap:18px; } @media(min-width:980px){ #akh-home .results-grid{grid-template-columns:repeat(4,1fr);} } @media(max-width:979px){ #akh-home .results-grid{grid-template-columns:1fr 1fr;} } @media(max-width:640px){ #akh-home .results-grid{grid-template-columns:1fr;} } #akh-home .result-card{ border-radius:18px; padding:18px 16px 18px; background:radial-gradient(circle at 0 0,rgba(10,194,157,.25),transparent 55%), rgba(5,7,14,.97); border:1px solid rgba(255,255,255,.08); box-shadow:0 22px 60px rgba(0,0,0,.85); font-size:.87rem; } #akh-home .result-tag{ font-size:.76rem; text-transform:uppercase; letter-spacing:.14em; color:var(--gold-soft); margin-bottom:4px; } #akh-home .result-title{ font-size:.98rem; font-weight:800; margin-bottom:6px; } #akh-home .chip-row{ display:flex; flex-wrap:wrap; gap:6px; margin:6px 0 8px; } #akh-home .chip{ font-size:.75rem; padding:5px 9px; border-radius:999px; border:1px solid rgba(255,255,255,.18); background:rgba(0,0,0,.65); color:var(--gold-soft); } #akh-home .result-link{ display:inline-flex; gap:6px; align-items:center; font-size:.78rem; margin-top:6px; color:var(--gold-soft); } /* ===== DASHBOARD GALLERY ===== */ #akh-home .gallery-grid{ margin-top:18px; display:grid; gap:10px; grid-template-columns:repeat(4,1fr); } @media(max-width:980px){ #akh-home .gallery-grid{grid-template-columns:repeat(3,1fr);} } @media(max-width:640px){ #akh-home .gallery-grid{grid-template-columns:repeat(2,1fr);} } #akh-home .gallery-item{ position:relative; border-radius:16px; overflow:hidden; background:#111; aspect-ratio:4/5; box-shadow:0 18px 44px rgba(0,0,0,.8); cursor:pointer; isolation:isolate; } #akh-home .gallery-item img{ width:100%;height:100%; object-fit:cover; display:block; transform:scale(1.03); transition:transform .35s ease,opacity .35s ease; } #akh-home .gallery-item:before{ content:"";position:absolute;inset:0; background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.9)); z-index:1; opacity:.95; } #akh-home .gallery-meta{ position:absolute; left:10px;right:10px;bottom:10px; z-index:2; font-size:.78rem; color:var(--gold-soft); } #akh-home .gallery-item:hover img{ transform:scale(1.08); opacity:.9; } /* ===== PROCESS ===== */ #akh-home .process-shell{ margin-top:18px; border-radius:22px; padding:18px 16px; border:1px solid rgba(255,255,255,.08); background:linear-gradient(130deg,rgba(255,255,255,.02),rgba(0,0,0,.85)); overflow:hidden; } #akh-home .timeline{ display:flex; gap:22px; overflow-x:auto; padding:6px 2px 6px; position:relative; scroll-snap-type:x mandatory; } #akh-home .timeline:before{ content:"";position:absolute;left:0;right:0;top:36px; height:1px; background:linear-gradient(90deg,rgba(255,255,255,.2),rgba(216,174,86,.7),rgba(255,255,255,.2)); opacity:.7; pointer-events:none; } #akh-home .step{ position:relative; min-width:190px; max-width:220px; scroll-snap-align:start; font-size:.82rem; } #akh-home .step-badge{ width:24px;height:24px; border-radius:999px; border:2px solid var(--gold); background:#05070c; display:flex; align-items:center; justify-content:center; font-size:.75rem; font-weight:800; color:var(--gold-soft); margin-bottom:8px; position:relative; z-index:1; } #akh-home .step-title{ font-weight:800; margin-bottom:4px; font-size:.86rem; } #akh-home .step-body{ color:var(--ink); opacity:.9; } @media(max-width:768px){ #akh-home .timeline{ flex-direction:column; overflow-x:visible; } #akh-home .timeline:before{ top:0;bottom:0;left:16px;right:auto;width:1px; height:auto; background:linear-gradient(180deg,rgba(255,255,255,.2),rgba(216,174,86,.7),rgba(255,255,255,.2)); } #akh-home .step{ min-width:auto;max-width:none; padding-left:32px; } #akh-home .step-badge{ position:absolute;left:0;top:0;transform:translateY(2px); } } /* ===== TESTIMONIALS ===== */ #akh-home .test-grid{ margin-top:18px; display:grid; gap:18px; } @media(min-width:980px){ #akh-home .test-grid{grid-template-columns:repeat(3,1fr);} } #akh-home .test-card{ border-radius:18px; padding:16px 16px 18px; background:radial-gradient(circle at 0 0,rgba(216,174,86,.24),transparent 55%), rgba(5,7,14,.96); border:1px solid rgba(255,255,255,.08); box-shadow:0 20px 58px rgba(0,0,0,.8); font-size:.88rem; } #akh-home .test-stars{ color:var(--gold-soft); font-size:.9rem; margin-bottom:6px; } #akh-home .test-meta{ margin-top:6px; font-size:.78rem; text-transform:uppercase; letter-spacing:.18em; color:var(--muted); } /* ===== ABOUT ===== */ #akh-home .about-grid{ margin-top:18px; display:grid; gap:22px; align-items:center; } @media(min-width:980px){ #akh-home .about-grid{grid-template-columns:1.1fr .9fr;} } #akh-home .about-photo{ position:relative; border-radius:22px; min-height:260px; background: radial-gradient(circle at 10% 0,rgba(216,174,86,.4),transparent 55%), radial-gradient(circle at 100% 100%,rgba(10,194,157,.35),transparent 60%), linear-gradient(135deg,#0b0f1e,#05070c); border:1px solid rgba(255,255,255,.12); box-shadow:0 26px 80px rgba(0,0,0,.9); overflow:hidden; } #akh-home .about-tag{ position:absolute; left:16px;bottom:16px; padding:10px 14px; border-radius:14px; border:1px solid rgba(255,255,255,.16); background:rgba(0,0,0,.85); font-size:.8rem; color:var(--gold-soft); } #akh-home small.kwd{ display:block; margin-top:8px; font-size:.72rem; color:var(--muted); } /* ===== FAQ ===== */ #akh-home .faq-grid{ margin-top:18px; display:grid; gap:14px; } #akh-home .faq-item{ border-radius:16px; padding:14px 14px 12px; border:1px solid rgba(255,255,255,.08); background:rgba(5,7,12,.9); } #akh-home .faq-q{ font-weight:700; margin-bottom:4px; font-size:.9rem; } #akh-home .faq-a{ font-size:.86rem; color:var(--ink); opacity:.97; } /* ===== FINAL CTA ===== */ #akh-home .final-cta{ margin-top:18px; border-radius:24px; padding:24px 20px; text-align:center; background: radial-gradient(circle at 0 0,rgba(216,174,86,.4),transparent 60%), radial-gradient(circle at 100% 100%,rgba(10,194,157,.35),transparent 60%), linear-gradient(135deg,#0b0f1e,#05070c); border:1px solid rgba(255,255,255,.1); box-shadow:0 30px 90px rgba(0,0,0,.95); } #akh-home .final-cta p{ max-width:520px; margin:8px auto 18px; } #akh-home .footer-note{ margin-top:26px; font-size:.78rem; text-align:center; color:var(--muted); } /* ===== Mobile sticky CTA ===== */ @media(max-width:768px){ #akh-home{padding-bottom:72px;} #akh-home .mobile-sticky-cta{ position:fixed; left:0;right:0;bottom:0; z-index:40; padding:10px 16px 14px; background:linear-gradient(180deg,rgba(5,7,12,.3),rgba(5,7,12,.98)); backdrop-filter:blur(18px); display:flex; justify-content:center; } #akh-home .mobile-sticky-cta .btn{ flex:1; max-width:480px; } } @media(min-width:769px){ #akh-home .mobile-sticky-cta{display:none;} } </style>
+<section id="akh-home" class="bleed">
+<div class="wrap"><!-- ========== HERO ========== --><header class="hero" id="top">
+<div>
+<div class="eyebrow">WEBSITE DESIGN • WEB DEVELOPMENT • PERFORMANCE •&nbsp;</div>
+<div class="eyebrow"><br></div>
+<div class="eyebrow"><br></div>
+<h2>We Build Professional Websites That Converts</h2>
+<p>&nbsp;</p>
+<p data-start="441" data-end="593">Al Khachan Marketing Agency designs and develops <strong data-start="213" data-end="257">high-performance, SEO-optimized websites</strong> for businesses and brands across <strong data-start="291" data-end="322">Lebanon and the Middle East</strong>.</p>
+<p data-start="441" data-end="593">&nbsp;</p>
+<div class="cta-row"><a href="#contact" class="btn"> <span class="shine"></span> <span class="icon">Get a Free Website Audit</span> </a> <a href="#results" class="btn btn-outline"> <span>See Our Real Results</span> </a></div>
+<div class="pill-row" style="margin-top: 16px;"><span class="pill">Web Design &amp; Development</span> <span class="pill">Technical SEO</span> <span class="pill">Speed &amp; Analytics</span></div>
+</div>
+<aside class="hero-banner" aria-label="Al Khachan Instagram dashboards and results">
+<div class="hero-banner-layer"><br></div>
+<div class="hero-banner-inner">
+<div>
+<div class="eyebrow" style="font-size: .76rem;">Engineered for Performance</div>
+<div class="eyebrow" style="font-size: .76rem;"><br></div>
+<p data-end="1248" data-start="1192"><strong>Selected Website Projects</strong><strong></strong></p>
+<p data-end="1248" data-start="1192" style="padding-left: 40px;">&nbsp;</p>
+<p data-start="202" data-end="315">We design and develop <strong data-start="224" data-end="268">high-performance, SEO-optimized websites</strong> built for speed, scalability, and reliability.</p>
+<p data-start="202" data-end="315">&nbsp;</p>
+</div>
+<div class="hero-metrics">
+<h4 class="metric"><span class="num" data-count="1500000" data-suffix="+">&nbsp; &nbsp;98%</span> <small>GTmetrix &amp; Lighthouse</small></h4>
+<div class="metric"><span class="num" data-count="1000000" data-suffix="+">&nbsp;1.2s Load Time&nbsp; &nbsp;&nbsp;</span> <small>&nbsp; &nbsp;Optimized for Core Web Vitals</small></div>
+<div class="metric"><span class="num" data-count="717000" data-suffix="+">0 CLS Layout Shift</span> <small>&nbsp; &nbsp;Stable, SEO-ready structure&nbsp;</small></div>
+</div>
+</div>
+</aside>
+</header>
+<div class="hr"><br></div>
+<!-- ========== TRUST / LOGOS ========== -->
+<section id="trust">
+<div class="trust-head">
+<h2>Instagram Growth for Brands Across the Middle East</h2>
+<p>&nbsp;</p>
+<p class="sub">We manage Instagram accounts for brands, businesses, and events across Lebanon and the Middle East&nbsp; focused on <strong data-start="1002" data-end="1039">content, growth, and real results</strong>.</p>
+<p class="sub">&nbsp;</p>
+</div>
+<div class="logo-strip-shell" aria-label="Client logo carousel">
+<div class="logo-strip"><!-- one sequence -->
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/A1_PIZZA.jpg?v=1760986591" alt="A1 Pizza Instagram marketing client"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/AK_RALLY_DRIVER.jpg?v=1760986716" alt="AK Rally Driver Instagram growth client"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/I_LOVE_GIFT.jpg?v=1762604875" alt="I Love Gift brand logo"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/petit_pas.jpg?v=1760987041" alt="Petit Pas boutique Instagram client"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Ishtar_naturals.jpg?v=1760986999" alt="Ishtar Naturals beauty brand client"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Lumina_cosmetics.jpg?v=1760987110" alt="Lumina Cosmetics marketing client"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Smart_Snacks.jpg?v=1760986780" alt="Smart Snacks social media client"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/LUXURY_Dream_home_DUBAI.jpg?v=1760986234" alt="Luxury Dream Home Dubai Instagram marketing"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/VERENA.jpg?v=1760986181" alt="Verena brand logo"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Diana_felkina.jpg?v=1760986948" alt="Diana Felkina creator client"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Falafel_adam.jpg?v=1760986879" alt="Falafel Adam restaurant client"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/BOUTIQUE_FEVER.jpg?v=1762604573" alt="Boutique Fever fashion boutique"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/GLAM_BY_SANDY.jpg?v=1762604530" alt="Glam by Sandy beauty brand"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/TROIS_QUARTS.jpg?v=1760986019" alt="Trois Quarts brand"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Bogochto_golf_car.jpg?v=1760985826" alt="Bogochto Golf Car client"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Batroun_race.jpg?v=1762605095" alt="Batroun Race events client"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/WFL_Baakline_Logo_Hiking_Outdoor_Adventure.jpg?v=1764750413" alt="WFL Baakline outdoor brand"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/CONCIERGE_HUB.jpg?v=1760986542" alt="Concierge Hub client"></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Roger_khoury_Rally_Diver.jpg?v=1760985786" alt="Roger Khoury rally driver client"></div>
+<!-- loop second time for endless scroll --> <!-- (duplicated sequence) -->
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/A1_PIZZA.jpg?v=1760986591" alt=""></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/AK_RALLY_DRIVER.jpg?v=1760986716" alt=""></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/I_LOVE_GIFT.jpg?v=1762604875" alt=""></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/petit_pas.jpg?v=1760987041" alt=""></div>
+<div class="logo-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Ishtar_naturals.jpg?v=1760986999" alt=""></div>
+</div>
+</div>
+<div class="trust-metrics" aria-label="Key performance metrics">
+<article class="trust-card tilt">
+<div class="trust-num" data-count="5000000" data-suffix="+">10M+</div>
+<div class="trust-label">Instagram views across client campaigns</div>
+</article>
+<article class="trust-card tilt">
+<div class="trust-num" data-count="2700" data-suffix="+">25K</div>
+<div class="trust-label">Followers gained from targeted campaigns</div>
+</article>
+<article class="trust-card tilt">
+<div class="trust-num" data-count="717000" data-suffix="+"><span style="font-size: 23.2px;">1.1M</span></div>
+<div class="trust-num" data-count="717000" data-suffix="+"><span style="color: rgb(169, 154, 134); font-size: 0.82rem; font-weight: normal;">Organic Instagram reach in 3 months</span></div>
+</article>
+<article class="trust-card tilt">
+<div class="trust-num" data-count="10" data-suffix="+">45</div>
+<div class="trust-label">Industries served across the Middle East</div>
+</article>
+</div>
+</section>
+<div class="hr"><br></div>
+<!-- ========== SERVICES ========== -->
+<section id="services">
+<h2 data-end="332" data-start="279"><strong data-end="332" data-start="283"></strong><br></h2>
+<h2 data-end="332" data-start="279">Professional Website Design &amp; Optimization Services</h2>
+<p>&nbsp;</p>
+<p data-end="547" data-start="371">We specialize in <strong data-start="563" data-end="625">professional website design, development, and optimization</strong>, delivering <strong data-start="638" data-end="674">fast, secure, SEO-ready websites</strong> for businesses across <strong data-start="697" data-end="734">Lebanon, GCC, and the Middle East</strong>.</p>
+<p data-end="547" data-start="371">&nbsp;</p>
+<div class="services-grid" aria-label="Al Khachan marketing services">
+<article class="service-card">
+<h3><strong>Website Design</strong></h3>
+<p data-start="652" data-end="771" style="text-align: left;"><em>Modern, conversion-focused <strong data-start="679" data-end="697">website design</strong> that reflects your brand and improves user experience across all devices.</em></p>
+<p data-start="773" data-end="826" style="text-align: left;"><em>UI/UX Design • Brand Identity • Conversion Design</em><strong>&nbsp;&nbsp;</strong><strong></strong></p>
+</article>
+<article class="service-card">
+<h2 class="service-title">Website Performance &amp; Speed</h2>
+<div class="service-title"><br></div>
+<p class="service-body" style="text-align: left;"><em>Optimized websites built for&nbsp;<strong data-start="1107" data-end="1123">fast loading</strong>, smooth navigation, and strong Core Web Vitals performance.</em></p>
+<p class="service-body" style="text-align: left;">&nbsp;</p>
+<div class="service-foot" style="text-align: left;"><em>UI/UX Design • Brand Identity • Conversion Design</em></div>
+</article>
+<article class="service-card">
+<h2 class="service-title">Website Optimization &amp; SEO</h2>
+<div class="service-title" style="text-align: left;"><br></div>
+<p class="service-body" style="text-align: left;"><em>Technical&nbsp;<strong data-start="1294" data-end="1314">SEO optimization</strong> to improve Google rankings, visibility, and long-term organic growth.</em></p>
+<p class="service-body" style="text-align: left;">&nbsp;</p>
+<div class="service-foot" style="text-align: left;"><em>SEO • Core Web Vitals • Google Ranking</em></div>
+</article>
+</div>
+</section>
+<div class="hr"><br></div>
+<!-- ========== WHY US ========== -->
+<section id="why">
+<h2>Why Brands Choose Al Khachan.</h2>
+<p>&nbsp;</p>
+<div class="why-grid">
+<div>
+<p class="sub">Al Khachan is a <strong data-start="632" data-end="686">professional website design and development agency</strong> led by <strong data-start="694" data-end="727">full-stack software engineers</strong>, specializing in <strong data-start="745" data-end="789">high-performance, SEO-optimized websites</strong> for businesses across <strong data-start="812" data-end="849">Lebanon, GCC, and the Middle East</strong>.</p>
+<p class="sub">&nbsp;</p>
+<article class="why-point">
+<h3 data-start="857" data-end="895"><strong data-start="861" data-end="895">Full-Stack Website Development</strong></h3>
+<p data-start="896" data-end="1074">&nbsp;</p>
+<p data-start="896" data-end="1074">We design and develop <strong data-start="918" data-end="955">custom websites and web platforms</strong> using modern full-stack technologies — front-end, back-end, and database — built for speed, security, and scalability.</p>
+</article>
+<article class="why-point">
+<h3 data-start="1081" data-end="1118"><strong data-start="1085" data-end="1118">SEO &amp; Performance Engineering</strong></h3>
+<p data-start="1119" data-end="1270">&nbsp;</p>
+<p data-start="1119" data-end="1270">Every website is engineered for&nbsp;<strong data-start="1151" data-end="1170">Google rankings</strong>, <strong data-start="1172" data-end="1186">page speed</strong>, and <strong data-start="1192" data-end="1211">Core Web Vitals</strong>, ensuring long-term visibility and strong user experience.</p>
+</article>
+</div>
+<div>
+<article class="why-point">
+<h3 data-start="1277" data-end="1316"><strong data-start="1281" data-end="1316">Conversion-Focused Architecture</strong></h3>
+<p data-start="1317" data-end="1432">&nbsp;</p>
+<p data-start="1317" data-end="1432">Our websites are structured to&nbsp;<strong data-start="1348" data-end="1411">generate leads, increase sales, and support business growth</strong>, not just look good.</p>
+</article>
+<article class="why-point">
+<h3 data-start="1439" data-end="1471"><strong data-start="1443" data-end="1471"></strong><br></h3>
+<h3 data-start="1439" data-end="1471"><strong data-start="1443" data-end="1471">Proven Technical Results</strong></h3>
+<p data-start="1472" data-end="1600">We validate performance using <strong data-start="1502" data-end="1529">industry-standard tools</strong> (GTmetrix, Lighthouse, Core Web Vitals) with measurable, real results.</p>
+</article>
+</div>
+</div>
+</section>
+<div class="hr"><br></div>
+<!-- ========== RESULTS SUMMARY ========== -->
+<section id="results">
+<h2><br></h2>
+<h2>Proven Instagram Growth Results.</h2>
+<p>&nbsp;</p>
+<p class="sub">A few of the Instagram growth stories we’ve documented with real dashboards and analytics screenshots.</p>
+<p class="sub">&nbsp;</p>
+<div class="results-grid">
+<article class="result-card">
+<div class="result-tag">Event · Batroun Race</div>
+<div class="result-tag"><br></div>
+<div class="result-title">1.5M+ Views &amp; 2.7K New Followers</div>
+<div class="result-title"><br></div>
+<div class="chip-row"><span class="chip">Profile before &amp; after</span> <span class="chip">Audience insights &amp; reach</span></div>
+<p>&nbsp;</p>
+<p>We took Batroun Race from a basic profile to a performance-driven event account with over 1.5M views and 2,700+ new followers tracked in dedicated dashboards.</p>
+<a class="result-link" href="#work"><span>View Batroun Race dashboards</span><span>↗</span></a></article>
+<article class="result-card">
+<div class="result-tag">Fashion · Boutique Fever</div>
+<div class="result-tag"><br></div>
+<div class="result-title">1M Views in 14 Days</div>
+<div class="result-title"><br></div>
+<div class="chip-row"><span class="chip">1M+ views</span> <span class="chip">853K views in 1 week</span></div>
+<p>&nbsp;</p>
+<p>For Boutique Fever, we combined strong Reels with boosting and strategy, generating 1M views in 14 days and 853K views with 31,778 accounts reached in a single week.</p>
+<a class="result-link" href="#work"><span>View Boutique Fever dashboards</span><span>↗</span></a></article>
+<article class="result-card">
+<div class="result-tag">Sports · AK Rally Driver</div>
+<div class="result-tag"><br></div>
+<div class="result-title">+1,108.9% Profile Activity</div>
+<div class="result-title"><br></div>
+<div class="chip-row"><span class="chip">90-day engagement report</span> <span class="chip">102.2K views · 9.9K interactions</span></div>
+<p>&nbsp;</p>
+<p>Our work with AK Rally Driver shows what focused content and support can do: a 1,108.9% profile activity surge, 102.2K views and 9.9K interactions on key content.</p>
+<a class="result-link" href="#work"><span>View AK Rally dashboards</span><span>↗</span></a></article>
+<article class="result-card">
+<div class="result-tag">Beauty · Glam by Sandy</div>
+<div class="result-tag"><br></div>
+<div class="result-title">1.2M+ Views &amp; Profile Upgrade</div>
+<div class="result-title"><br></div>
+<div class="chip-row"><span class="chip">1.2M+ views</span> <span class="chip">Branding &amp; performance</span></div>
+<p>&nbsp;</p>
+<p>For Glam by Sandy, we improved both branding and performance, achieving over 1.2M views and documenting the full journey with before/after profile screenshots.</p>
+<a class="result-link" href="#work"><span>View Glam by Sandy results</span><span>↗</span></a></article>
+</div>
+</section>
+<div class="hr"><br></div>
+<!-- ========== DASHBOARD GALLERY (YOUR REAL IMAGES) ========== -->
+<section id="work">
+<h2>Our Work: Verified Performance &amp; Real Growth Data</h2>
+<p>&nbsp;</p>
+<p class="sub">Every image shows <strong data-end="238" data-start="206">real client performance data</strong> from Al Khachan campaigns, including growth, reach, and analytics.</p>
+<p class="sub">&nbsp;</p>
+<div class="gallery-grid" aria-label="Instagram dashboard gallery"><!-- Batroun Race -->
+<figure class="gallery-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Batroun_Race_Social_Media_Profile_BEFORE_Growth_Results.jpg?v=1764753598" loading="lazy" alt="Batroun Race Instagram profile before growth management">
+<figcaption class="gallery-meta"><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Batroun Race · Profile before growth</figcaption>
+</figure>
+<figure class="gallery-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Batroun_Race_Professional_Dashboard_AFTER_Growth_Results.jpg?v=1764753733" loading="lazy" alt="Batroun Race Instagram dashboard after growth results">
+<figcaption class="gallery-meta">Batroun Race · Dashboard after 1.5M+ views</figcaption>
+</figure>
+<figure class="gallery-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Batroun_Race_Followers_Growth_Dashboard_Performance_Improvement.jpg?v=1764756419" loading="lazy" alt="Batroun Race followers growth dashboard">
+<figcaption class="gallery-meta">Batroun Race · Followers growth</figcaption>
+</figure>
+<figure class="gallery-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Batroun_Race_1.5M_Views_2.7K_New_Followers_Growth_After_Dashboard_Improvement.jpg?v=1764760510" loading="lazy" alt="Batroun Race 1.5M views and 2.7K followers dashboard">
+<figcaption class="gallery-meta">Batroun Race · 1.5M views &amp; 2.7K followers</figcaption>
+</figure>
+<!-- Boutique Fever -->
+<figure class="gallery-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Boutique_Fever_Dashboard_Growth_Report_1M_Views_in_14_Days.jpg?v=1764756024" loading="lazy" alt="Boutique Fever 1M views in 14 days dashboard">
+<figcaption class="gallery-meta">Boutique Fever · 1M views in 14 days</figcaption>
+</figure>
+<figure class="gallery-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Massive_Reach_Growth_853K_Views_31_778_Accounts_Reached_in_One_Week_for_boutique_fever.jpg?v=1764759171" loading="lazy" alt="Boutique Fever 853K views 31,778 accounts reached">
+<figcaption class="gallery-meta">Boutique Fever · 853K views in one week</figcaption>
+</figure>
+<figure class="gallery-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Boutique_Fever_AFTER_Follower_Growth_Engagement_Improvement.jpg?v=1764754766" loading="lazy" alt="Boutique Fever follower and engagement improvement">
+<figcaption class="gallery-meta">Boutique Fever · Followers &amp; engagement</figcaption>
+</figure>
+<!-- AK Rally Driver -->
+<figure class="gallery-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/AK_Rally_Driver_Engagement_Growth_Report_Last_90_Days.jpg?v=1764755308" loading="lazy" alt="AK Rally Driver engagement growth 90 days">
+<figcaption class="gallery-meta">AK Rally Driver · 90-day engagement growth</figcaption>
+</figure>
+<figure class="gallery-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/AK_Rally_Driver_Massive_Profile_Activity_Surge_1_108.9_in_14_Days.jpg?v=1764761213" loading="lazy" alt="AK Rally Driver profile activity surge">
+<figcaption class="gallery-meta">AK Rally Driver · +1,108.9% profile activity</figcaption>
+</figure>
+<figure class="gallery-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/AK_Rally_Driver_Post-Management_Results_102.2K_Views_9.9K_Interactions.jpg?v=1764761355" loading="lazy" alt="AK Rally Driver 102.2K views and 9.9K interactions">
+<figcaption class="gallery-meta">AK Rally Driver · 102.2K views &amp; 9.9K interactions</figcaption>
+</figure>
+<!-- Glam by Sandy -->
+<figure class="gallery-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Galm_by_Sandy_Professional_Dashboard_Growth_Report_1.2_Million_Views.jpg?v=1764757938" loading="lazy" alt="Glam by Sandy 1.2M views Instagram dashboard">
+<figcaption class="gallery-meta">Glam by Sandy · 1.2M+ views dashboard</figcaption>
+</figure>
+<figure class="gallery-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Glam_by_Sandy_Instagram_Profile_Growth_Improved_Branding_After_Results.jpg?v=1764759350" loading="lazy" alt="Glam by Sandy profile growth after">
+<figcaption class="gallery-meta">Glam by Sandy · profile upgrade</figcaption>
+</figure>
+<!-- Other highlights -->
+<figure class="gallery-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Luxury_Dream_Home_Followers_Growth_30-Day_Improvement.jpg?v=1764757395" loading="lazy" alt="Luxury Dream Home 30-day follower growth">
+<figcaption class="gallery-meta">Luxury Dream Home · 30-day growth</figcaption>
+</figure>
+<figure class="gallery-item"><img src="https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Al_Khachan_Marketing_Agency_Engagement_Growth_717K_Views_in_3_Months.jpg?v=1764758546" loading="lazy" alt="Al Khachan agency 717K views in 3 months dashboard">
+<figcaption class="gallery-meta">Al Khachan · 717K views in 3 months</figcaption>
+</figure>
+</div>
+<p style="margin-top: 14px; font-size: .8rem; color: var(--muted);">&nbsp;</p>
+<p style="margin-top: 14px; font-size: .8rem; color: var(--muted);">Book a free strategy call to receive a custom growth plan based on your goals and current performance.</p>
+<p style="margin-top: 14px; font-size: .8rem; color: var(--muted);">&nbsp;</p>
+</section>
+<div class="hr"><br></div>
+<!-- ========== PROCESS ========== -->
+<section>
+<h2>The Al Khachan Method.</h2>
+<p>&nbsp;</p>
+<p class="sub">A structured, data-driven framework for <strong data-end="438" data-start="361">professional website design, full-stack development, and SEO optimization</strong>, built to deliver speed, stability, and measurable growth.</p>
+<p class="sub">&nbsp;</p>
+<div class="process-shell">
+<div class="timeline" aria-label="Instagram growth process">
+<div class="step">
+<div class="step-badge">1</div>
+<div class="step-title">Website Audit &amp; Performance Analysis</div>
+<p class="step-body">We run a full technical audit covering <strong data-end="668" data-start="591">page speed, Core Web Vitals, SEO structure, security, and user experience</strong> to establish clear performance benchmarks.</p>
+</div>
+<div class="step">
+<div class="step-badge">2</div>
+<div class="step-title">Strategy &amp; Architecture Planning</div>
+<p class="step-body">We define site structure, UX flow, content hierarchy, and SEO strategy aligned with <strong data-end="958" data-start="933">Google best practices</strong> and your business objectives.</p>
+</div>
+<div class="step">
+<div class="step-badge">3</div>
+<div class="step-title">Design &amp; Full-Stack Development</div>
+<p class="step-body">We design and develop <strong data-start="1142" data-end="1171">high-performance websites</strong> using clean code, scalable architecture, and modern frameworks for long-term reliability.</p>
+</div>
+<div class="step">
+<div class="step-badge">4</div>
+<div class="step-title">SEO &amp; Performance Optimization</div>
+<p class="step-body">We optimize for <strong data-end="1492" data-start="1420">Google rankings, page speed, mobile performance, and Core Web Vitals</strong>, ensuring fast load times and stable layouts.</p>
+</div>
+<div class="step">
+<div class="step-badge">5</div>
+<div class="step-title">Testing, Scaling &amp; Reporting</div>
+<p class="step-body">Every website is tested with <strong data-end="1759" data-start="1708">GTmetrix, Lighthouse, and real-world benchmarks</strong>, then scaled and documented with clear performance reports.</p>
+</div>
+</div>
+</div>
+</section>
+<div class="hr"><br></div>
+<!-- ========== TESTIMONIALS ========== -->
+<section id="testimonials">
+<h2><br></h2>
+<h2>Trusted Website Design &amp; SEO Agency&nbsp; Client Reviews</h2>
+<p>&nbsp;</p>
+<p data-start="326" data-end="506">Businesses across <strong data-start="329" data-end="366">Lebanon, GCC, and the Middle East</strong> trust <strong data-start="373" data-end="404">Al Khachan Marketing Agency</strong> for<br data-start="408" data-end="411"><strong data-start="411" data-end="519">professional website design, full-stack web development, SEO optimization, and measurable digital growth</strong>.</p>
+<p data-start="326" data-end="506">&nbsp;</p>
+<p class="sub">&nbsp;</p>
+<div class="test-grid">
+<article class="test-card">
+<div class="test-stars">⭐️⭐️⭐️⭐️⭐️</div>
+<div class="test-stars"><br></div>
+<p>Our website speed, SEO performance, and online visibility improved from the first month. Clear results and real data</p>
+<p>&nbsp;</p>
+<div class="test-meta">Event Brand | Website &amp; Digital Growth Client</div>
+</article>
+<article class="test-card">
+<div class="test-stars">⭐️⭐️⭐️⭐️⭐️</div>
+<div class="test-stars"><br></div>
+<p>Al Khachan rebuilt our website with a strong SEO structure. Traffic, engagement, and conversions increased.</p>
+<p>&nbsp;</p>
+<div class="test-meta">Fashion Boutique | E-commerce Website Client</div>
+</article>
+<article class="test-card">
+<div class="test-stars">⭐️⭐️⭐️⭐️⭐️</div>
+<div class="test-stars"><br></div>
+<p>Professional, transparent, and performance-focused. We track website growth, SEO rankings, and results clearly.</p>
+<p>&nbsp;</p>
+<div class="test-meta">Public Figure | Brand Website Client</div>
+</article>
+</div>
+</section>
+<div class="hr"><br></div>
+<!-- ========== ABOUT ========== -->
+<section id="about">
+<h3 data-start="322" data-end="348">Expert-Led Website &amp; SEO Agency</h3>
+<p>&nbsp;</p>
+<p>Al Khachan Marketing Agency is led by a certified full-stack engineer, delivering high-performance website development, technical SEO, and scalable digital solutions across Lebanon, GCC, and the Middle East.</p>
+<div class="about-grid">
+<aside class="about-photo" aria-label="Al Khachan marketing agency team">
+<h3 class="about-tag"><strong data-end="266" data-start="218">&nbsp;</strong><strong data-end="266" data-start="218">Full-stack engineer &amp; SEO specialist building Google-optimized websites.</strong></h3>
+<ul>
+<li style="font-weight: bold;" data-start="491" data-end="532">
+<h6><strong>Luxury Brand Strategy &amp; Customer Experience (LVMH)</strong></h6>
+</li>
+<li data-start="568" data-end="612">
+<h6 data-start="570" data-end="612">Google Digital Marketing Certification</h6>
+</li>
+<li data-start="613" data-end="655">
+<h6 data-start="615" data-end="655">Computer &amp; Communication Engineer | IBM-Certified Full-Stack Engineer</h6>
+</li>
+<li data-start="656" data-end="727">
+<h6 data-start="658" data-end="727">Master’s in Digital Marketing ( Paris) | Google Digital Marketing Certified&nbsp;</h6>
+</li>
+</ul>
+</aside>
+</div>
+</section>
+<section id="faq">
+<h3 data-start="2093" data-end="2114"><strong data-start="2097" data-end="2112">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong><strong data-start="2097" data-end="2112"></strong></h3>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2 data-start="314" data-end="331"><strong data-start="317" data-end="331">Who We Are</strong></h2>
+<p>&nbsp;</p>
+<p data-start="333" data-end="621">Founded in 2018, <strong data-start="350" data-end="381">Al Khachan Marketing Agency</strong> is a <strong data-start="387" data-end="419">Lebanon-based digital agency</strong> specializing in <strong data-start="436" data-end="559">high-performance website development, full-stack software engineering, technical SEO, and data-driven digital marketing</strong> for clients across <strong data-start="579" data-end="620">Lebanon, the Middle East, and the GCC</strong>.</p>
+<p data-start="623" data-end="975">Led by a <strong data-start="632" data-end="693">certified full-stack software engineer and SEO specialist</strong>, with a <strong data-start="702" data-end="784">Master’s degree in Digital Marketing from an American Business School in Paris</strong>, we combine <strong data-start="797" data-end="884">advanced software development, search engine optimization, and performance strategy</strong> to build <strong data-start="894" data-end="933">fast, secure, and scalable websites</strong> that meet <strong data-start="944" data-end="974">Google’s highest standards</strong>.</p>
+<p data-start="977" data-end="1281">Our <strong data-start="981" data-end="1020">team of 9 experienced professionals</strong>, including <strong data-start="1032" data-end="1109">full-stack engineers, designers, SEO specialists, and digital strategists</strong>, serves <strong data-start="1118" data-end="1152">clients across the Middle East</strong>, delivering <strong data-start="1165" data-end="1240">transparent processes, measurable results, and long-term digital growth</strong> based on real data — not vanity metrics.</p>
+<p data-start="1283" data-end="1482">With <strong data-start="1288" data-end="1314">two offices in Lebanon</strong>, we provide reliable regional support while building <strong data-start="1368" data-end="1406">Google-optimized digital platforms</strong> designed for <strong data-start="1420" data-end="1481">visibility, conversions, and sustainable business success</strong>.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>Website Development &amp; SEO Agency in Lebanon, GCC &amp; the Middle East</h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="sub">Founded in 2018, <strong data-end="805" data-start="774">Al Khachan Marketing Agency</strong> is a <strong data-end="858" data-start="811">top-tier website development and SEO agency</strong> delivering fast, secure, and Google-optimized websites for businesses across <strong data-end="973" data-start="936">Lebanon, GCC, and the Middle East</strong>.<br data-end="977" data-start="974">We specialize in <strong data-end="1097" data-start="994">custom website development, technical SEO, performance optimization, and scalable digital platforms</strong> built to drive real traffic, leads, and growth.</p>
+<p class="sub">&nbsp;</p>
+<div class="faq-grid" aria-label="Frequently asked questions">
+<article class="faq-item">
+<div class="faq-q">
+<h3 data-end="1241" data-start="1207">Website Design &amp; Development</h3>
+<p data-end="1347" data-start="1242">Conversion-focused, custom websites built with clean architecture, speed optimization, and scalable code.</p>
+</div>
+</article>
+<article class="faq-item">
+<div class="faq-q">
+<h3 data-end="1390" data-start="1349">Technical SEO &amp; Google Optimization</h3>
+<p data-end="1489" data-start="1391">SEO-ready websites optimized for <strong data-end="1488" data-start="1424">Core Web Vitals, page speed, indexing, and search visibility</strong>.</p>
+</div>
+</article>
+<article class="faq-item">
+<div class="faq-q">
+<h3 data-end="1529" data-start="1491">Performance &amp; Speed Optimization</h3>
+<p data-end="1633" data-start="1530">High-performance websites tested with <strong data-end="1600" data-start="1568">Google Lighthouse &amp; GTmetrix</strong> for maximum speed and stability.</p>
+</div>
+</article>
+<article class="faq-item">
+<div class="faq-q">
+<h3 data-end="1667" data-start="1635">Digital Growth &amp; Analytics</h3>
+<p data-end="1738" data-start="1668">Real dashboards, real data, and measurable growth&nbsp; no vanity metrics.</p>
+</div>
+</article>
+</div>
+</section>
+<div class="hr"><br></div>
+<!-- ========== CONTACT / FINAL CTA ========== -->
+<section id="contact">
+<div class="final-cta">
+<h2>Ready to Improve Your Website?</h2>
+<p>Share your website with us and receive a <strong>free professional website audit</strong> covering performance, SEO, design, and conversion opportunities.</p>
+<div style="justify-content: center;" class="cta-row"><a href="https://www.alkhachan.com/pages/free-website-speed-audit" class="btn"> <span class="shine"></span> <span>Get a Free Website Audit →</span> </a></div>
+</div>
+<p class="footer-note">&nbsp;</p>
+<p class="footer-note">© Al Khachan Marketing Agency — Leading website design and development agency specializing in SEO-optimized, high-performance digital solutions for businesses in Lebanon and the Middle East.</p>
+</section>
+</div>
+<!-- Mobile sticky CTA -->
+<div class="mobile-sticky-cta"><a href="mailto:alkhachanmarketingagency@gmail.com" class="btn"> <span class="shine"></span> <span>Book a Free Strategy Call</span> </a></div>
+<!-- ========== JS: Counters & Year ========== --> <script> // dynamic year (function(){ var y = document.getElementById('akh-year'); if(y){ y.textContent = new Date().getFullYear(); } })(); // animated counters (function(){ var els = document.querySelectorAll('#akh-home [data-count]'); els.forEach(function(el){ var end = parseFloat(el.getAttribute('data-count')); var suf = el.getAttribute('data-suffix') || ""; var dur = 1500; var startTime = performance.now(); function step(ts){ var p = Math.min((ts - startTime) / dur, 1); var val; if(end > 1000000){ val = Math.round(end * p).toLocaleString(); }else{ val = Math.round(end * p).toString(); } el.textContent = val + (p === 1 ? suf : ""); if(p < 1) requestAnimationFrame(step); } requestAnimationFrame(step); }); })(); </script> <!-- ========== JSON-LD SCHEMA (SEO) ========== --> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Organization", "name": "Al Khachan Marketing Agency", "url": "https://www.alkhachan.com", "description": "Al Khachan Marketing Agency is a premium Instagram growth and creative marketing agency based in Lebanon and serving brands across the Middle East with content creation, dashboards and performance campaigns.", "areaServed": [ "Lebanon", "United Arab Emirates", "Saudi Arabia", "Qatar", "Middle East" ], "logo": "https://cdn.shopify.com/s/files/1/0734/5058/6264/files/Al_Khachan_Marketing_Agency_Engagement_Growth_717K_Views_in_3_Months.jpg?v=1764758546", "sameAs": [], "serviceArea": { "@type": "AdministrativeArea", "name": "MENA" } } </script> <script type="application/ld+json"> { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [ { "@type": "Question", "name": "How can Instagram marketing grow my business in Lebanon or the GCC?", "acceptedAnswer": { "@type": "Answer", "text": "Al Khachan builds a system around your Instagram profile: content, Reels, boosting and dashboards. This allows us to increase reach, profile visits and followers for the audiences that actually buy, not just random views." } }, { "@type": "Question", "name": "What kind of results can we expect in the first 30\u201390 days?", "acceptedAnswer": { "@type": "Answer", "text": "Most brands see clear improvements in reach, profile activity and content performance in the first 30 days, with stronger growth as we optimize over 60\u201390 days, depending on the starting point and market." } }, { "@type": "Question", "name": "Do you work only with Lebanon-based brands?", "acceptedAnswer": { "@type": "Answer", "text": "No. Al Khachan is based in Lebanon but serves brands across the Middle East including the UAE, Saudi Arabia, Qatar and other GCC markets." } }, { "@type": "Question", "name": "Can you manage our ads as well as our content?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Al Khachan manages both organic content and paid promotion on Instagram, including Reels boosting, ads and campaign tracking in dashboards clients can access any time." } } ] } </script></section>
